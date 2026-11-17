@@ -1,0 +1,60 @@
+# Download it here: https://black-minecraft.com/resources/11252/
+#  _   _ _ _   _                 _         _   _ ___
+# | | | | | |_(_)_ __ ___   __ _| |_ ___  | | | |_ _|
+# | | | | | __| | '_ ` _ \ / _` | __/ _ \ | | | || |
+# | |_| | | |_| | | | | | | (_| | ||  __/ | |_| || |
+# \____/|_|\__|_|_| |_| |_|\__,_|\__\___| \___/|___|
+#
+# UltimateUI's main configuration file
+
+editor:
+  placeholders:
+    text-refresh: 20
+    resolve-in-editor: false
+  show-npc:
+    enabled: false
+  autosave:
+    enabled: true
+    interval-seconds: 600
+  history:
+    undo-limit: 50
+  sounds:
+    enabled: true
+    volume: 1.0
+  max-page-elements: 500
+  show-editor-files: false
+  rendering:
+    fix-shaders: false
+    fix-shaders-y-offset: 2.1006
+    fix-shaders-forward-offset: 0.3781
+    fix-shaders-layer-gap: 0.000002
+    hud-scale-divisor: 1000.0
+
+resource-pack:
+  apply-on-join: true
+  kick-on-decline: false
+  kick-on-fail: false
+  compress-images: true
+  remove-default-hotbar: false
+  hosting:
+    default-pack:
+      enabled: false
+    self-host:
+      enabled: false
+      server-ip: '127.0.0.1'
+      pack-port: 8123
+    external-host:
+      enabled: false
+      url: "link"
+    external-pack:
+      enabled: false
+    xqedii-setups:
+      enabled: false
+  messages:
+    chat:
+      enabled: false
+    title:
+      enabled: true
+    sound:
+      enabled: true
+      volume: 1.0

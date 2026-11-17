@@ -1,0 +1,34 @@
+resource-pack:
+  messages:
+    chat:
+      loading: "<#8dfc00>Loading the resource pack..."
+      success: "<#8bf800>✔ <#b8fb62>The resource pack has been loaded!"
+      failed: "&cThe resource pack could not be loaded!"
+    title:
+      title: "<#dedb24><bold>Resource pack is loading!"
+      subtitle: "<#80fbc6>Your resource pack will be loaded soon..."
+    kick:
+      decline-message: "&cYou didn't accept the Texture Pack!"
+      fail-message: "&cResource Pack download Failed!"
+    prompt:
+      - ""
+      - "&6Please accept the &a&nResourcePack&6 to make the"
+      - "&6gameplay even better and more interesting!"
+      - ""
+      - "&aThanks to our Resource Pack, you will see many"
+      - "&anew features and amazing effects that you"
+      - "&awill not experience on other servers!"
+      - ""
+      - "&e|"
+      - "&e|"
+      - "&e|"
+      - "&e_____/         "
+      - "&e/                    "
+      - "&e|                     "
+      - "&e\\/                     "
+
+gui:
+  no-perm: "&cYou don't have permission <#ff9391>{PERMISSION}&c!"
+  cant-do-this: "&cYou can't do this!"
+  limit-reached: "&cThis page has reached the element limit!"
+  editor-not-on-bedrock: "&cThe editor is not available on Bedrock!"
